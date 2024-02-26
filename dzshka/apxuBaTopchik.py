@@ -18,7 +18,6 @@ def apxuBaTop():
             elif znak != ' ':
                 posle += znak
             else:
-                # Добавляем пробел только если предыдущий символ не является знаком препинания
                 if posle and posle[-1] not in z_prepinaniya:
                     posle += znak
 
